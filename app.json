@@ -1,0 +1,45 @@
+{
+  "pages":[
+      "pages/search/search",
+      "pages/index/index",
+      "pages/logs/logs",
+      "pages/welcome/welcome",
+      "pages/about/about",
+      "pages/aboutapp/aboutapp",
+      "pages/feedback/feedback",
+      "pages/detail/detail",
+      "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "极简菜谱",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "color": "#A0A0A0",
+    "selectedColor": "#202020",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/search_sel.png",
+        "iconPath": "images/search_nor.png",
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+      },
+      {
+        "selectedIconPath": "images/grid_sel.png",
+        "iconPath": "images/grid_nor.png",
+        "pagePath": "pages/index/index",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/mine_sel.png",
+        "iconPath": "images/mine_nor.png",
+        "pagePath": "pages/about/about",
+        "text": "我的"
+      }
+    ]
+  }
+}

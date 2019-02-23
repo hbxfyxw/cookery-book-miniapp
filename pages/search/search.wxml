@@ -1,0 +1,28 @@
+<view>
+<!--
+ <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+      <block wx:for="{{movies}}" wx:for-index="index" wx:key="unique">    
+        <swiper-item>    
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+        </swiper-item>    
+      </block>    
+  </swiper>  
+-->
+<view class='searchHeadImage'>
+<!--
+  <image src="http://7b1gs4.com1.z0.glb.clouddn.com/meishibanner.jpg"></image>
+-->
+  <image src="http://preview.new.55.la/banner_more_pic/admin_view_pic/21396.gif"></image>
+</view>
+
+<form bindsubmit="searchSubmit" action="">
+<view class='searchInputBox'>
+<input class="searchInput" type='search' placeholder='输入检索关键词' maxlength='6' bindconfirm='searchSubmit'></input>
+</view>
+</form>
+
+<view class='slogan'>
+唯美食与爱不可辜负
+</view>
+
+</view>

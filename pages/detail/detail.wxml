@@ -1,0 +1,52 @@
+<view>
+<!--
+<view>{{resData.result.name}}</view>
+-->
+
+<view class='detailTitle'>{{resData.result.recipe.title}}</view>
+
+<view class='headImage' wx:if="{{resData.result.recipe.img!=null}}">
+<image src="{{resData.result.recipe.img}}" style='width:100%' mode='aspectFill'></image>
+</view>
+
+<view class='itemTitle'>配料</view>
+<!---
+<view class='ingredients'>{{resData.result.recipe.ingredients}}</view>
+-->
+<view class='ingredients' wx:for="{{ingredientsJson}}"  wx:if="{{ingredientsJson!=null}}" wx:key="unique">
+<view>{{item}}</view>
+</view>
+
+<view class='itemTitle'>步骤</view>
+<!--
+<view class='method'>{{resData.result.recipe.method}}</view>
+-->
+<view class='method' wx:for="{{methodJson}}" wx:key="unique">
+<view class='headImage' wx:if="{{item.img!=null}}">
+<image src="{{item.img}}" style='width:100%' mode='aspectFill'></image>
+</view>
+<view>{{item.step}}</view>
+</view>
+
+<view class='itemTitle'>总结</view>
+<view class='sumary'>{{resData.result.recipe.sumary}}</view>
+
+<view class='itemTitle'>同类推荐</view>
+
+<view class="ctgTitles">
+<view class='ctgTitleItem' wx:for="{{ctgTitles}}" wx:for-index="index" bindtap='itemClick' id="{{item}}" wx:key="unique" data-ctgid='{{ctgIds[index]}}' data-ctgname='{{item}}'>
+{{item}}
+</view>
+</view>
+
+<!--
+<view wx:for="{{ctgIds}}" wx:key="unique">
+<view>{{item}}</view>
+</view>
+-->
+
+<view class='shareBox'>
+<button open-type='share' class='btnShare'>分享给微信好友</button>
+</view>
+
+</view>

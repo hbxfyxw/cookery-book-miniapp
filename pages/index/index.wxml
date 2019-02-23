@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class='page-container'>
+<!--
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+-->
+ 
+<view wx:for="{{resData.result.childs}}" wx:key="i" wx:for-item="mainItem" wx:for-index="mainIndex">
+  <!--按xx选择菜谱的标题栏-->
+  <view class='mainItemView'>{{mainItem.categoryInfo.name}}</view>
+  <!--二级目录盒子模型 start-->
+  <view class='subItemContainer'>
+  <view class='subItemView' wx:for="{{mainItem.childs}}" wx:key="j" wx:for-item="subItem" wx:for-index="subIndex" bindtap='gotoList' id="{{subItem.categoryInfo.ctgId}}" data-titlename="{{subItem.categoryInfo.name}}">
+      <view wx:if="{{i==j}}">
+      <!--二级分类的标题-->
+        <!--<view>-->
+        {{subItem.categoryInfo.name}}
+        <!--</view>-->
+      </view>     
+  </view>
+  </view><!--二级目录盒子模型end-->  
+</view>
+
+</view>

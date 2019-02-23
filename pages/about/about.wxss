@@ -1,0 +1,39 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 72rpx;
+  font-size: 12pt;
+  padding-left: 42rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  align-items: center;
+  color: #888888;
+}
+.divideline{
+  width: 94%;
+  display: flex;
+  background: #DEDEDE;
+  height: 2rpx;
+}
+
+.contactView{
+  margin-top: 42rpx;
+}

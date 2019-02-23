@@ -1,0 +1,91 @@
+/*样式文件*/
+.detailTitle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14pt;
+  color: #000000;
+  margin-bottom: 16rpx;
+}
+
+.itemTitle{
+  display: flex;
+  width: 100%;
+  background-color: #F6F6F6;
+  padding-left: 16rpx;
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+  color: #353535;
+  font-weight: bold;
+}
+
+.ingredients{
+  display: flex;
+  width: 100%;
+  color: #888888;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  line-height: 1.5em
+}
+
+.method{
+  display: block;
+  width: 100%;
+  color: #888888;
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  line-height: 1.5em;
+}
+
+.sumary{
+  display: flex;
+  padding-top: 20rpx;
+  padding-bottom: 16rpx;
+  line-height: 1.5em;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  color: #888888;
+}
+
+.headImage{
+  width: 100%;
+  display: block;
+  justify-content: center
+}
+
+.btnShare{
+  width: 98%;
+  border:3rpx solid #000000;
+  border-radius: 0;
+  margin-bottom: 2rpx;
+  font-weight: bold;
+}
+.ctgTitles{
+  width: 100%;
+ display: flex;
+ flex-direction: row;
+ margin-top: 16rpx;
+ margin-bottom: 50rpx;
+ padding-left: 24rpx;
+ padding-right: 24rpx;
+}
+.ctgTitleItem{
+  display: flex;
+  flex-direction: row;
+  margin-left: 12rpx;
+  margin-right: 12rpx;  
+  /*background: #FFAC38;*/
+  background: #FA6249;
+  color: #FFFFFF;
+  border-radius: 10%;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  padding-top: 4rpx;
+  padding-bottom: 4rpx;
+  box-sizing:border-box;
+  justify-content: center;
+}
