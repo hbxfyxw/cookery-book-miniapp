@@ -1,6 +1,6 @@
 # cookery-book-miniapp  
 
-## 极简菜谱小程序
+## 极简菜谱
 
 微信小程序面世快一年了，借助庞大的用户群以及生态链的助力，微信小程序的商业应用效果已经初显。小程序“无需安装，即用即走”的理念优雅又克制。作为一个开发者，在新事物出来后总想折腾和尝鲜，于是在工作之余制作了这个菜谱类小程序。
 
@@ -8,4 +8,14 @@
 
 因为侧重体验小程序的开发能力，所以本次在UI展示效果方面也没有进行过多的修饰，多是采用黑白色简单搭配。因为披露的接口有限，我这边所能做的花样并不多，以后若有余力有新的想法会再次进行迭代更新。“唯美食与爱不可辜负”，希望这款菜谱小程序能为您的生活增添几分方便；历时一周匆匆完成，其中难免会有疏漏和不足，作为开发者也渴盼聆听您的宝贵意见。
 
-## 参与体验  
+## 扫码体验  
+
+![image](https://img3.doubanio.com/view/photo/l/public/p2548488064.webp)
+
+## 开发者  
+
+微博: [https://weibo.com/hbxfyxw](https://weibo.com/hbxfyxw)  
+豆瓣: [https://www.douban.com/people/hbxfyxw/](https://www.douban.com/people/hbxfyxw/)  
+github: [https://github.com/hbxfyxw](https://github.com/hbxfyxw)  
+
+感谢您的阅读和支持，欢迎Follow和Star
